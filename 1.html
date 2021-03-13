@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+  <head>
+    <title>PROTOTYPE - main</title>
+    <meta charset="utf-8">
+    <style>
+      *   {
+          text-align: center;
+          }
+      ul  {
+          padding-left: 0;
+          margin-top: 10px;}
+      h2  {
+          margin-bottom: 10px;
+          }
+      ul>li {
+            list-style-type: none;
+            padding-left: 0;
+            }
+      a     {
+            color:pink;
+            text-decoration:none;
+
+            }
+    </style>
+    <script src="color.js"></script>
+  </head>
+  <body>
+  <!--  배경화면 색상 흑백 모드 버튼 -->
+    <input type="button" value="night" onclick="
+      nigth_mode(this);">
+  <!-- 배경화면 색상 흑백 모드 버튼 끝 -->
+
+    <h1><a href="1.html">main page</a></h1>
+
+
+    <h2>LIST</h2>
+  <!-- 반복문(whlie)을 사용하여 list 출력 -->
+    <ul>
+      <script>
+        var list = ['sub page.1','sub page.2','sub page.3'];
+        var i = 0;
+        while(i < list.length){
+          document.write('<li><a href="'+(i+2)+'.html">'+list[i]+'</a></li>');
+          i++;
+        }
+      </script>
+    </ul>
+
+    <img src="waves.jpg" width=500px>
+    <p>this page is wroten by html.<br> this is the main page of this website.</p>
+  </body>
+</html>

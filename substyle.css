@@ -1,0 +1,33 @@
+#grid ul>li {
+            list-style-type: none;
+            text-align: left;
+            }
+#grid ul  {
+          border-right:2px solid pink;
+          width:100px;
+          padding:20px;
+          padding-left:40px;
+          margin:0;
+          }
+#grid     {
+          display: grid;
+          grid-template-columns: 150px 1fr;
+          }
+#article  {
+          padding-left:40px;
+
+          }
+body  {
+      margin:0;
+    }
+h1    {
+      text-align:center;
+      padding: 30px;
+      margin:0;
+      border-bottom:2px solid pink;
+
+      }
+a     {
+      color:pink;
+      text-decoration:none;
+      }
